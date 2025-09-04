@@ -60,19 +60,9 @@ npm install
 npm run dev
 ```
 
+------------------------------------------------------------------------
+If you want to open it directly, then
 Now open https://quiz-app-wheat-nu-11.vercel.app/ in your browser.
-
-### 4. Build for Production
-
-``` bash
-npm run build
-```
-
-### 5. Preview Production Build
-
-``` bash
-npm run preview
-```
 
 ------------------------------------------------------------------------
 
