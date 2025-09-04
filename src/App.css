@@ -1,0 +1,66 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fullscreen Gradient Background */
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  background: url("/public/backgroundtech.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Dark overlay for readability 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(15,23,42,0.85), rgba(2,6,23,0.85));
+  z-index: -1;
+}*/
+
+
+/* Custom Scrollbar */
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #2563eb, #1e40af);
+  border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Button Hover */
+button {
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  filter: brightness(1.1);
+  transform: scale(1.03);
+}
+
+/* Headings Glow (subtle) */
+h1, h2, h3 {
+  text-shadow: 0 0 8px rgba(59,130,246,0.4),
+               0 0 16px rgba(29,78,216,0.2);
+}
+
+/* Quiz Card Box */
+.quiz-card {
+  background: rgba(15, 23, 42, 0.85); /* dark navy */
+  border: 2px solid rgba(59, 130, 246, 0.5); /* soft blue border */
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+}
